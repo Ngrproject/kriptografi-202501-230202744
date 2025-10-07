@@ -73,8 +73,8 @@ Hubungan ketiganya: confidentiality tanpa integrity membuat data tidak dapat dip
 Belum ada kode program, hanya pengelolaan Git.  
 
 ## 6. Hasil dan Pembahasan
-![Setup GitHub](screenshots/github.png)  
-![Commit GitHub](screenshots/comit.png)  
+![Setup GitHub](Screenshots/github.png)  
+![Commit GitHub](Screenshots/comit.png)  
 
 ---
 
