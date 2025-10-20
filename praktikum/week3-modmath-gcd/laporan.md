@@ -135,8 +135,7 @@ Masalah utama dalam logaritma diskrit adalah sulitnya menemukan nilai pangkat ya
 ---
 
 ## 8. Kesimpulan
-(Tuliskan kesimpulan singkat (2–3 kalimat) berdasarkan percobaan.  )
-
+Dari percobaan ini dapat disimpulkan bahwa aritmetika modular merupakan dasar penting dalam kriptografi karena memungkinkan operasi matematika dilakukan dalam ruang bilangan terbatas. Melalui implementasi fungsi-fungsi seperti penjumlahan, perkalian, GCD, invers modular, dan logaritma diskrit, dapat dipahami bagaimana konsep matematika ini digunakan untuk membangun sistem keamanan data seperti RSA dan Diffie-Hellman. Program ini membuktikan bahwa prinsip sederhana dari operasi modular memiliki peran besar dalam menjaga kerahasiaan dan integritas informasi digital.
 ---
 
 ## 9. Daftar Pustaka
