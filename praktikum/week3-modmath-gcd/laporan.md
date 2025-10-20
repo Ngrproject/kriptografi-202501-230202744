@@ -126,11 +126,11 @@ Hasil eksekusi program Caesar Cipher:
 ---
 
 ## 7. Jawaban Pertanyaan
-1. # Peran aritmetika modular dalam kriptografi modern
+1. - Peran aritmetika modular dalam kriptografi modern
 Aritmetika modular menjadi dasar utama dalam kriptografi karena memungkinkan operasi matematika dilakukan dalam ruang bilangan terbatas. Sistem ini digunakan untuk menjaga hasil perhitungan tetap aman dan efisien. Dalam algoritma seperti RSA atau Diffie-Hellman, aritmetika modular membantu membentuk fungsi yang mudah dihitung tetapi sulit dibalik, sehingga menjaga keamanan data.
-2. # Pentingnya invers modular dalam algoritma kunci publik
+2. - Pentingnya invers modular dalam algoritma kunci publik
 Invers modular berperan penting karena digunakan untuk proses dekripsi. Dalam algoritma RSA, kunci privat dihitung sebagai invers modular dari kunci publik terhadap fungsi totien. Tanpa invers ini, pesan yang sudah dienkripsi tidak bisa dikembalikan ke bentuk aslinya, sehingga keamanan komunikasi tetap terjaga.
-3. # Tantangan utama dalam logaritma diskrit untuk modulus besar
+3. - Tantangan utama dalam logaritma diskrit untuk modulus besar
 Masalah utama dalam logaritma diskrit adalah sulitnya menemukan nilai pangkat yang sesuai saat modulusnya sangat besar. Tidak ada cara cepat untuk menghitungnya, sehingga membutuhkan waktu komputasi yang sangat lama. Kesulitan inilah yang membuat algoritma seperti Diffie-Hellman dan ElGamal tetap aman digunakan.
 ---
 
