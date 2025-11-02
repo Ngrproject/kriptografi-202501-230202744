@@ -218,5 +218,5 @@ commit week5-cipher-klasik
 Author: Dimas Aditya Nugroho <dimasngr31@gmail.com>
 Date:   2025-11-02
 
-    week5-cipher-klasik: implementasi Cipher Klasik (Caesar, Vigenère, Transposisi) )
+    week5-cipher-klasik: implementasi Cipher Klasik (Caesar, Vigenère, Transposisi)
 ```
