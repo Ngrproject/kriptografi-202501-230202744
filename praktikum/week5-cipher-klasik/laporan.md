@@ -182,18 +182,18 @@ print("Decrypted :", dec)
 
 ## 6. Hasil dan Pembahasan
 1. Caesar Cipher
-![Caesar Cipher](Screenshots/caesar.png)
+![Caesar Cipher](screenshots/caesar.png)
 Berdasarkan hasil percobaan pada program Caesar Cipher dengan plaintext “UNIVERSITAS PUTRA BANGSA” dan kunci pergeseran sebesar 3, diperoleh ciphertext “XQLYHUVLWDV SXWUD EDQJVD”. Proses dekripsi berhasil mengembalikan teks ke bentuk aslinya dengan sempurna. Hal ini menunjukkan bahwa algoritma bekerja dengan baik dalam melakukan enkripsi dan dekripsi menggunakan metode pergeseran huruf tetap. Kelebihan dari Caesar Cipher adalah implementasinya yang sangat sederhana dan proses enkripsi yang cepat. Namun, kelemahannya cukup signifikan, yaitu tingkat keamanannya sangat rendah karena hanya memiliki 25 kemungkinan kunci. Cipher ini juga mudah dipecahkan menggunakan serangan brute force atau analisis frekuensi karena pola huruf yang dihasilkan tetap terlihat jelas. Oleh sebab itu, Caesar Cipher lebih cocok digunakan untuk pembelajaran dasar kriptografi, bukan untuk keamanan data yang sebenarnya.
 
 2. Vigenere Cipher
-![Vigenere Cipher](Screenshots/vignere.png)
+![Vigenere Cipher](screenshots/vignere.png)
 Pada algoritma Vigenere Cipher, pengujian dilakukan dengan plaintext yang sama yaitu “UNIVERSITAS PUTRA BANGSA” dan menggunakan kunci “KEY”. Hasil enkripsi menghasilkan ciphertext “ERGFPICRKWN NEXPFK FVYXQK”, sedangkan proses dekripsi berhasil mengembalikan teks menjadi bentuk aslinya tanpa kesalahan. Hasil tersebut menunjukkan bahwa Vigenere Cipher memiliki tingkat kerandoman yang lebih tinggi dibanding Caesar Cipher, karena setiap huruf dienkripsi menggunakan pergeseran yang berbeda-beda sesuai dengan karakter kunci. Kelebihan utama dari algoritma ini adalah kemampuannya untuk mengaburkan pola huruf sehingga lebih sulit diserang menggunakan analisis frekuensi. Meskipun demikian, Vigenere Cipher tetap memiliki kelemahan, terutama jika kunci yang digunakan terlalu pendek atau berulang, karena hal itu dapat menyebabkan munculnya pola yang dapat dianalisis menggunakan metode seperti Kasiski examination. Secara umum, Vigenere Cipher menawarkan keamanan yang lebih baik dibanding Caesar Cipher, terutama bila kunci yang digunakan cukup panjang dan acak.
 
 3. Transpose Cipher
-![Transpose Cipher](Screenshots/transpose.png)
+![Transpose Cipher](screenshots/transpose.png)
 Pada pengujian algoritma Transposition Cipher dengan plaintext “UNIVERSITAS PUTRA BANGSA” dan kunci 5, diperoleh ciphertext “URSRNNS AGP STVUUBAEETA”. Proses dekripsi juga berhasil mengembalikan pesan ke bentuk aslinya secara sempurna, yang menunjukkan bahwa algoritma berfungsi dengan benar. Berbeda dengan dua algoritma sebelumnya yang menggunakan metode substitusi, Transposition Cipher bekerja dengan cara mengubah posisi huruf tanpa mengubah karakter aslinya. Kelebihan dari metode ini adalah hasil enkripsi yang sulit dibaca tanpa mengetahui kuncinya, karena posisi huruf tampak acak. Namun, kelemahannya terletak pada pola penempatan huruf yang masih bisa dianalisis jika panjang pesan dan kunci diketahui. Selain itu, karena tidak ada proses substitusi, cipher ini lebih lemah jika berdiri sendiri, tetapi akan jauh lebih kuat apabila dikombinasikan dengan cipher lain seperti Vigenere atau Caesar.
 
-![Perbandingan Hasil](Screenshots/hasil.png)
+![Perbandingan Hasil](screenshots/hasil.png)
 
 ## 7. Jawaban Pertanyaan
 1.Kelemahan utama dari Caesar Cipher adalah ruang kuncinya yang sangat kecil, yaitu hanya 25 kemungkinan pergeseran, sehingga sangat mudah dipecahkan dengan serangan brute force. Selain itu, karena setiap huruf pada plaintext selalu digantikan oleh huruf yang sama pada ciphertext, pola huruf tetap terlihat jelas sehingga mudah dianalisis menggunakan frekuensi kemunculan huruf. Sementara itu, Vigenère Cipher memang lebih kuat daripada Caesar karena menggunakan kunci yang lebih panjang dan bersifat polialfabetik, namun tetap memiliki kelemahan apabila panjang kunci dapat ditebak. Jika kunci pendek digunakan berulang kali, pola-pola huruf masih dapat muncul dan diserang menggunakan metode seperti Kasiski examination atau Friedman test.
