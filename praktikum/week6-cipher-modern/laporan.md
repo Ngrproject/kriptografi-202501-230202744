@@ -137,6 +137,6 @@ Berdasarkan percobaan yang telah dilakukan, ketiga algoritma enkripsi modern DES
 
 commit Cipher Modern (DES, AES, RSA) 
 Author: Dimas Aditya Nugroho <dimasngr31@gmail.com>
-Date:   2025-09-20
+Date:   2025-11-08
  week6-Cipher Modern (DES, AES, RSA) : Cipher Modern (DES, AES, RSA)
 
